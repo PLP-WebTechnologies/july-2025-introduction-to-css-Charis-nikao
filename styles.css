@@ -1,0 +1,90 @@
+/* ===== Reset some defaults ===== */
+body, h1, h2, p {
+  margin: 0;
+  padding: 0;
+}
+
+/* ===== Body styling ===== */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f9fc;
+  color: #333;
+  line-height: 1.6;
+  margin: 20px;
+}
+
+/* ===== Header ===== */
+.header {
+  text-align: center;
+  background: #4a90e2;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.subtitle {
+  font-size: 1.1rem;
+  margin-top: 10px;
+}
+
+/* ===== Navigation ===== */
+.nav-bar {
+  background: #333;
+  padding: 10px;
+  margin: 20px 0;
+  text-align: center;
+}
+
+.nav-bar a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+}
+
+.nav-bar a:hover {
+  text-decoration: underline;
+}
+
+/* ===== Card sections ===== */
+.card {
+  background: white;
+  padding: 20px;
+  margin: 20px 0;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+}
+
+.card h2 {
+  margin-bottom: 10px;
+}
+
+.highlight {
+  background: #f0f8ff;
+  border-color: #4a90e2;
+}
+
+/* ===== Buttons ===== */
+.btn {
+  display: inline-block;
+  background: #4a90e2;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  margin-top: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #357ab8;
+}
+
+/* ===== Footer ===== */
+.footer {
+  text-align: center;
+  margin-top: 40px;
+  padding: 15px;
+  background: #eee;
+  border-radius: 8px;
+  font-size: 0.9rem;
+}
